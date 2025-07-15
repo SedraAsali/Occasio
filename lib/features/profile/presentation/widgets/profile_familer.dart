@@ -43,27 +43,3 @@ import '../../../../core/utils/widgets/constants.dart';
      ],
    ),
  );
-
-
-/*
-Widget button({required String name})
- =>
-Container(
-padding: EdgeInsets.only(left: 10,right: 5),
-margin: EdgeInsets.only(left: 15,right: 15),
-decoration:
-BoxDecoration(
-color:  COLOR3,
-borderRadius: BorderRadius.circular(30),
-),
-child:
-ListTile(
-leading: Icon(Icons.language,color: Colors.red ),
-title: Text(name,
-style: TextStyle(color: COLOR2,),
-),
-trailing: Icon(Icons.arrow_forward_ios, size: 16,
-color: Colors.red,),
-onTap: () {},
-),
-);*/

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'core/utils/widgets/constants.dart';
-import 'features/cart/presentation/widgets/cart.dart';
+import 'features/cart/presentation/views/view_cart.dart';
 import 'features/products/presentation/views/viewProducts.dart';
 import 'features/profile/presentation/views/viewProfile.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
        // primarySwatch: COLOR2,
       ) ,
       debugShowCheckedModeBanner: false,
-      home: MyCart(),
+      home: ViewCart(),
 
     );
   }
